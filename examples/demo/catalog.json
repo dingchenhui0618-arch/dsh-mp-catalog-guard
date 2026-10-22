@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-18",
+  "activities": [
+    {
+      "id": "act_autumn_3",
+      "title": "秋季套餐 3 人",
+      "subtitle": "含茶位与甜品",
+      "amountFen": 19.9,
+      "image": "images/autumn.png"
+    },
+    {
+      "id": "act_lunch_2",
+      "title": "工作日双人午餐",
+      "subtitle": "含茶位与甜品",
+      "amount": 128,
+      "image": "images/lunch.png"
+    },
+    {
+      "id": "act_autumn_3",
+      "title": "秋季套餐 3 人",
+      "subtitle": "限时供应",
+      "amountFen": "19900",
+      "image": "/images/autumn.png"
+    },
+    {
+      "id": "act_night_1",
+      "title": "夜宵拼盘",
+      "amountFen": 6800,
+      "image": "images/missing-snack.png"
+    },
+    {
+      "id": "act_free_1",
+      "title": "到店试饮",
+      "subtitle": "到店即可",
+      "amountFen": 0,
+      "image": "images/lunch.png"
+    },
+    {
+      "id": "act_remote_1",
+      "title": "联名礼盒",
+      "amountFen": 39800,
+      "image": "https://cdn.example.com/box.png"
+    }
+  ]
+}

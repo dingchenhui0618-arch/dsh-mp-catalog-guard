@@ -1,0 +1,6 @@
+{
+  "pages": ["pages/index", "pages/detail"],
+  "window": {
+    "navigationBarTitleText": "示例活动"
+  }
+}

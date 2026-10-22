@@ -1,0 +1,11 @@
+<view class="list">
+  <block wx:for="{{activities}}" wx:key="id">
+    <view class="card" bindtap="openDetail" data-id="{{item.id}}">
+      <image class="cover" src="{{item.image}}" mode="aspectFill" />
+      <view class="title">{{item.title}}</view>
+      <!-- 历史写法，别照抄：<text>¥{{item.amountFen / 100}}</text> -->
+      <text class="price">¥{{item.amountFen / 100}}</text>
+      <text class="sub">{{item.subtitle}}</text>
+    </view>
+  </block>
+</view>

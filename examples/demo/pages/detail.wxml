@@ -1,0 +1,6 @@
+<view class="detail">
+  <view class="price">{{money(activity.amountFen)}}</view>
+  <text class="hint">已含服务费，合计 {{activity.amountFen}} 分</text>
+  <text class="strike">门市价 ¥{{activity.amount}} 起</text>
+  <text class="sub">{{activity.subtitle}}</text>
+</view>

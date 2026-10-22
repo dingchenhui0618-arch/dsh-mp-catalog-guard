@@ -1,0 +1,22 @@
+{
+  "screenshots": [
+    {
+      "file": "docs/screenshot-1.png",
+      "theme": "dark",
+      "viewport": { "width": 900, "deviceScaleFactor": 2 },
+      "px": { "width": 1800, "height": 3962 },
+      "fixture": "examples/demo",
+      "generatedBy": "node scripts/screenshot.mjs",
+      "note": "内容目录面板的静态渲染：9 错误 / 3 警告 / 1 信息 / 3 处可自动修复，含 unified diff。"
+    },
+    {
+      "file": "docs/screenshot-2.png",
+      "theme": "light",
+      "viewport": { "width": 900, "deviceScaleFactor": 2 },
+      "px": { "width": 1800, "height": 3962 },
+      "fixture": "examples/demo",
+      "generatedBy": "node scripts/screenshot.mjs --theme light --out docs/screenshot-2.png",
+      "note": "同一份报告在浅色主题下的渲染，配色全部来自 DSH 主题 token。"
+    }
+  ]
+}
