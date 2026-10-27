@@ -1,8 +1,13 @@
 # dsh-mp-catalog-guard
 
+[![CI](https://github.com/dingchenhui0618-arch/dsh-mp-catalog-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dingchenhui0618-arch/dsh-mp-catalog-guard/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **微信小程序内容目录的守卫**：一个 DSH 插件 + 一个同源的命令行工具，检查 `catalog.json` 里的金额是不是整数分、页面上的价格是不是都走了 `money()`、必填字段/重复文案/图片路径有没有问题，输出一份问题清单和一份**可直接应用**的 unified diff。默认 dry-run，不写文件。
 
 > 一句话：让「浮点金额、手写 `/100`、漏了 `image`」在发版前变成一条带行号的报错，而不是上线后变成客诉。
+
+> 用着还行的话，点个 ⭐ 就够了——插件市场的「搜插件」按 GitHub star 排序，star 是这个插件能被人翻到的唯一杠杆。
 
 ![深色主题下的内容目录面板](docs/screenshot-1.png)
 
